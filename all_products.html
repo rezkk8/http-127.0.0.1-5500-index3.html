@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>on the phone</title>
+
+
+
+
+
+    <!-- file css -->
+
+     <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+   
+</head>
+
+
+
+<body>
+   
+    <header>
+
+        <div class="container top-nav ">
+            <a href="#" class="logo"><img src="img/logo99.jpg" alt=""></a>
+            <form action="" class="search">
+                <input type="search" placeholder="search for products...">
+                <button type="submit">search</button>
+            </form>
+
+            <div class="cart_header">
+                <div onclick="open_close_cart()" class="icon_cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="count_item">0</span>
+                </div>
+                <div class="tottal_price">
+                    <p>my cart</p>
+                    <p class="price_cart_Head">$0</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottom_header">
+
+
+            <div class="container">
+
+                <nav class="nav">
+
+                    <span onclick="open_Mune()" class="open_menu"><i class="fa-solid fa-bars"></i></span>
+
+                    <div class="category_nav">
+
+                        <div  onclick="open_categ_list()" class="category_btn">
+                            <i class="fa-solid fa-bars"></i>
+                            <p>Browse category</p>
+                            <i class="fa-solid fa-angle-down"></i>
+
+                        </div>
+
+
+
+                        <div class="category_nav_list">
+                            
+                            <a href="#">iphone</a>
+                            <a href="#">Android</a>
+                            <a href="#">tablet</a>
+                            <a href="#">apple watch</a>
+                            <a href="#">Smart watch</a>
+                           
+                        </div>
+
+
+
+ 
+                    </div>
+
+                    <ul class="nav_links">
+
+                        <span onclick="open_Mune()" class="close_menu"><i class="fa-solid fa-circle-xmark"></i></span>
+
+                        <li class="active"><a href="#">HOME</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Accesorise</a></li>
+                        <li><a href="#">BLog</a></li>
+                       
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+        
+
+    </header>
+
+   <div class="cart ">
+
+        <div class="top_cart">
+            <h3>My cart <span class="count_item_cart">(0Item in cart)</span></h3>
+            <span onclick="open_close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+        </div>
+
+
+
+    <div class="items_in_cart" id="cart_items">
+
+        
+    </div>
+
+        <div class="bottom_cart">
+            <div class="total">
+                <p>cart subtotal</p>
+                <p class="price_cart_total">$0</p>
+            </div>
+
+            <div class="button_cart">
+                <a href="#" class="btn_cart"> checkout</a>
+                <button onclick="open_close_cart()" class="btn_cart trans_bg">shop more</button>
+            </div>
+        </div>
+
+   </div>
+
+
+   <div class="top_page">
+       <div class="container">
+        <h1>Experience the future of Technology with Our topice.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, laudantium. Inventore a, ea nisi dolor eligendi tempora quod soluta rerum?</p>
+       </div>
+   </div>
+
+   <section class="all_products">
+    <div class="container">
+
+
+        <div class="filter">
+            <h2>filter</h2>
+
+            <div class="filter_item">
+                <h4>categorie</h4>
+                <div class="cintent">
+
+
+                    <div class="item">
+                        <span>iPhone</span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span>Android</span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span>tablet</span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span>appel watch</span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span>smart watch</span>
+                        <input type="checkbox">
+                    </div>
+
+
+                    <div class="item">
+                        <span>phones</span>
+                        <input type="checkbox">
+                    </div>
+
+
+                    <div class="item">
+                        <span>apple</span>
+                        <input type="checkbox">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="filter_item">
+                <h4>brand</h4>
+                <div class="cintent">
+
+
+                    <div class="item">
+                        <span>iPhone</span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span>Android</span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span>tablet</span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span>appel watch</span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span>smart watch</span>
+                        <input type="checkbox">
+                    </div>
+
+
+                    <div class="item">
+                        <span>phones</span>
+                        <input type="checkbox">
+                    </div>
+
+
+                    <div class="item">
+                        <span>apple</span>
+                        <input type="checkbox">
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="filter_item">
+                <h4>color</h4>
+                <div class="cintent">
+
+
+                    <div class="item">
+                        <span class="color" style="background: red;"></span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span class="color" style="background: blue"></span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span class="color" style="background: black"></span>
+                        <input type="checkbox">
+                    </div>
+
+
+                    <div class="item">
+                        <span class="color" style="background: orangered;"></span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span class="color" style="background: yellow"></span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="item">
+                        <span class="color" style="background: green"></span>
+                        <input type="checkbox">
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="products_dev" class="products_dev">
+
+        </div>
+
+    </div>
+
+
+
+    <div class="pagination">
+        <span class="btn_page prev"><i class="fa-solid fa-backward-step"></i></span>
+        <a href="#"><span class="num_page active">1</span></a>
+        <a href="#"><span class="num_page">2</span></a>
+        <a href="#"><span class="num_page">3</span></a>
+        <span class="btn_page next"><i class="fa-solid fa-forward-step"></i></span>
+    </div>
+   </section>
+
+
+
+
+
+
+    <div class="back_to_top">
+        <p>back to top</p>
+    </div>
+
+
+
+
+  
+  <footer>
+
+    <div class="container">
+        <div class="big_row">
+            <img class="logo_footer" src="img/lop8.jpg" alt="">
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, repellat?</p>
+
+            <div class="icons_footer">
+                <a href=""><i class="fa-solid fa-phone"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="row">
+
+            <h4>Mobile devices</h4>
+
+            <div class="links">
+                <a href=""><i class="fa-solid fa-caret-right"></i>iPhone</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>Android</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>smart Watch</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>apple watch</a>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <h4>Mobile devices</h4>
+
+            <div class="links">
+                <a href=""><i class="fa-solid fa-caret-right"></i>Apple</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>Samsung</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>OPPO</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>Xiaomi</a>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <h4>Mobile devices</h4>
+
+            <div class="links">
+                <a href=""><i class="fa-solid fa-caret-right"></i>infinix</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>Huawei</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>tablet</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>Honor</a>
+            </div>
+
+
+        </div> 
+
+
+
+
+
+
+    </div>
+
+
+    <div class="bottom_footer">
+        <div class="container">
+            <p>&copy; <span>On The Phone</span> All Rights Reserved</p>
+
+            <div class="payment_img">
+                <img src="img/payment_method.png" alt="">
+            </div>
+        </div>
+    </div>
+
+   </footer>
+   <!-- end footer -->
+
+
+
+
+
+
+
+
+
+    <!-- file JS -->
+ 
+    <script src="js/main.js"></script>
+    <script src="js/all_products.js"></script>
+    
+</body>
+</html>

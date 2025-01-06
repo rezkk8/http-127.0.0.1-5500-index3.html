@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>on the phone</title>
+
+
+
+
+
+    
+
+    <!-- file css -->
+
+     <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+
+
+<body>
+   
+    <header>
+
+        <div class="container top-nav ">
+            <a href="#" class="logo"><img src="img/logo99.jpg" alt=""></a>
+            <form action="" class="search">
+                <input type="search" placeholder="search for products...">
+                <button type="submit">search</button>
+            </form>
+
+            <div class="cart_header">
+                <div onclick="open_close_cart()" class="icon_cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="count_item">0</span>
+                </div>
+                <div class="tottal_price">
+                    <p>my cart</p>
+                    <p class="price_cart_Head">$0</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottom_header">
+
+
+            <div class="container">
+
+                <nav class="nav">
+
+                    <span onclick="open_Mune()" class="open_menu"><i class="fa-solid fa-bars"></i></span>
+
+                    <div class="category_nav">
+
+                        <div  onclick="open_categ_list()" class="category_btn">
+                            <i class="fa-solid fa-bars"></i>
+                            <p>Browse category</p>
+                            <i class="fa-solid fa-angle-down"></i>
+
+                        </div>
+
+
+
+                        <div class="category_nav_list">
+                            
+                            <a href="#">iphone</a>
+                            <a href="#">Android</a>
+                            <a href="#">tablet</a>
+                            <a href="#">apple watch</a>
+                            <a href="#">Smart watch</a>
+                           
+                        </div>
+
+
+
+ 
+                    </div>
+
+                    <ul class="nav_links">
+
+                        <span onclick="open_Mune()" class="close_menu"><i class="fa-solid fa-circle-xmark"></i></span>
+
+                        <li class="active"><a href="all_products.html">HOME</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Accesorise</a></li>
+                        <li><a href="#">BLog</a></li>
+                       
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+        
+
+    </header>
+
+ <div class="cart ">
+
+        <div class="top_cart">
+            <h3>My cart <span class="count_item_cart">(0Item in cart)</span></h3>
+            <span onclick="open_close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+        </div>
+
+
+
+    <div class="items_in_cart" id="cart_items">
+
+        
+    </div>
+
+        <div class="bottom_cart">
+            <div class="total">
+                <p>cart subtotal</p>
+                <p class="price_cart_total">$0</p>
+            </div>
+
+            <div class="button_cart">
+                <a href="#" class="btn_cart"> checkout</a>
+                <button onclick="open_close_cart()" class="btn_cart trans_bg">shop more</button>
+            </div>
+        </div>
+
+</div>
+
+    
+    <div class="slider">
+        <div class="container">
+            
+            
+            <!-- swiper -->
+          <div class="slide-swp mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <a href="#"><img src="img/nm54.JPEG" alt=""></a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="#"><img src="img/nonj.jpg" alt=""></a>
+                </div>
+
+                       
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="banner_2">
+            <a href="#"><img src="img/hder33.jpg" alt=""></a>
+          </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="banners_4">
+        <div class="container">
+
+
+          <div class="box">
+              <a href="#" class="link_btn"></a>
+
+              <img src="img/g1.PNG" alt="">
+              <div class="text">
+                  <h5>ON THE PHONE </h5>
+                  <h5>iPhone</h5>
+
+                  <div class="sale">
+                      <p> up <br> to</p>
+                       <span>70%</span>
+                   
+                  </div>
+                    <h6>shop new</h6>
+              </div>
+          </div>
+
+          <div class="box">
+              <a href="#" class="link_btn"></a>
+
+              <img src="img/n2.WEBP" alt="">
+              <div class="text">
+                  <h5>0N THE PHONE</h5>
+                  <h5>Android</h5>
+
+                  <div class="sale">
+                      <p> up <br> to</p>
+                         <span>70%</span>
+                  
+                  </div>  
+                 <h6>shop new</h6>
+              </div>
+          </div>
+
+          <div class="box">
+              <a href="#" class="link_btn"></a>
+
+              <img src="img/g3.PNG" alt="">
+              <div class="text">
+                  <h5>ON THE PHONE</h5>
+                  <h5>Tablet & iPad</h5>
+
+                  <div class="sale">
+                      <p> up <br> to</p>
+                         <span>70%</span>
+                     
+                  </div> 
+               <h6>shop new</h6>
+              </div>
+          </div>
+
+
+          <div class="box">
+              <a href="#" class="link_btn"></a>
+
+              <img src="img/g4.PNG" alt="">
+              <div class="text">
+                  <h5>ON THE PHONE</h5>
+                  <h5>Apple Watch</h5>
+                  <h5>Smart Watch</h5>
+
+                  <div class="sale">
+                      <p> up <br> to</p>
+                       <span>70%</span>
+                      
+                  </div>
+                 <h6>shop new</h6>
+              </div>
+          </div>
+
+
+      
+        </div>  
+    </div>
+
+
+   
+<!-- start slide -->
+
+    <section class="slide slide_sale">
+        <div class="container">
+
+
+            <div class="sale_sec mySwiper ">
+
+
+                <div class="top_slide">
+
+                    <h2><i class="fa-solid fa-tags"></i>on sale </h2>
+
+                </div>
+   
+                <div id="swiper_items_sale" class="products swiper-wrapper">
+
+                   
+                </div>
+
+                <div class="swiper-button-next btn_swip"></div>
+                <div class="swiper-button-prev btn_swip"></div>
+
+
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <section class="banner">
+        <div class="container">
+
+            <div class="banner_img">
+                <div class="glass_hover"></div>
+                <a href="">   </a>
+                <img src="img/bn346.jpg" alt="">
+             
+            </div>
+            
+            <div class="banner_img">
+                <div class="glass_hover"></div>
+                <a href="">  </a>
+                <img src="img/bn345.jpg" alt="">
+               
+            </div>
+            <div class="banner_img">
+                <div class="glass_hover"></div>
+                <a href="">  </a>
+                <img src="img/bn346.jpg" alt="">
+               
+            </div>
+
+          
+
+        </div>
+    </section>
+
+    <section class="slide slide_product">
+        <div class="container">
+
+            <div class="top_slide">
+
+                <h2><i class="fa-solid fa-tags"></i>APPLE</h2>
+
+            </div>
+
+            <div class="slide_with_img">
+
+                <div class="categ_img">
+                    <a href="#"><img src="img/sli2.PNG" alt=""></a>
+                </div>
+
+                <div class="product_swip mySwiper">
+
+                    <div class="products other_product_swiper swiper-wrapper" id="other_product_swiper">
+
+                    </div>
+
+                  <div class="swiper-button-next btn_swip"></div>
+                  <div class="swiper-button-prev btn_swip"></div>
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="slide slide_product">
+        <div class="container">
+
+            <div class="top_slide">
+
+                <h2><i class="fa-solid fa-tags"></i>Android</h2>
+
+            </div>
+
+            <div class="slide_with_img">
+
+               
+
+                <div class="product_swip mySwiper">
+
+                    <div class="products other_product_swiper swiper-wrapper" id="other_product_swiper2">
+
+                    </div>
+
+                  <div class="swiper-button-next btn_swip"></div>
+                  <div class="swiper-button-prev btn_swip"></div>
+
+                </div>
+
+                <div class="categ_img">
+                    <a href="#"><img src="img/slid1.PNG" alt=""></a>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+    
+    <section class="slide slide_product">
+        <div class="container">
+
+            <div class="top_slide">
+
+                <h2><i class="fa-solid fa-tags"></i>SMART Watch</h2>
+
+            </div>
+
+            <div class="slide_with_img">
+
+               
+                <div class="categ_img">
+                    <a href="#"><img src="img/slid3.jpg" alt=""></a>
+                </div>
+
+
+                <div class="product_swip mySwiper">
+
+                    <div class="products other_product_smart  swiper-wrapper" id="other_product_smart">
+
+                    </div>
+
+                  <div class="swiper-button-next btn_swip"></div>
+                  <div class="swiper-button-prev btn_swip"></div>
+
+                </div>
+                
+                
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="container">
+
+            <div class="banner_img">
+                <div class="glass_hover"></div>
+                <a href="">   </a>
+                <img src="img/bn346.jpg" alt="">
+             
+            </div>
+            
+            <div class="banner_img">
+                <div class="glass_hover"></div>
+                <a href="">  </a>
+                <img src="img/bn345.jpg" alt="">
+               
+            </div>
+            <div class="banner_img">
+                <div class="glass_hover"></div>
+                <a href="">  </a>
+                <img src="img/bn346.jpg" alt="">
+               
+            </div>
+
+          
+
+        </div>
+    </section>
+
+<!-- end slide  -->
+
+
+
+<!-- start news & back -->
+
+
+
+    <div class="newsletter">
+        <div class="container">
+            <div class="text">
+                <img src="img/icon_email.png" alt="">
+                <div class="content">
+                    <h4> sing up to newsletter</h4>
+                    <p>Get email updates about our latest shope...and receive</p>
+                    <h6>$30 Coupon for firest shopping</h6>
+                </div>
+            </div>
+
+            <form action="" class="newsletter_form">
+                <input type="email" placeholder="Enter your email here...">
+                <button type="submit">subscribe</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="back_to_top">
+        <p>back to top</p>
+    </div>
+
+
+
+<!-- end news -->
+
+
+
+
+
+  <!-- start footor -->
+
+
+  
+  <footer>
+
+    <div class="container">
+        <div class="big_row">
+            <img class="logo_footer" src="img/lop8.jpg" alt="">
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, repellat?</p>
+
+            <div class="icons_footer">
+                <a href=""><i class="fa-solid fa-phone"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="row">
+
+            <h4>Mobile devices</h4>
+
+            <div class="links">
+                <a href=""><i class="fa-solid fa-caret-right"></i>iPhone</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>Android</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>smart Watch</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>apple watch</a>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <h4>Mobile devices</h4>
+
+            <div class="links">
+                <a href=""><i class="fa-solid fa-caret-right"></i>Apple</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>Samsung</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>OPPO</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>Xiaomi</a>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <h4>Mobile devices</h4>
+
+            <div class="links">
+                <a href=""><i class="fa-solid fa-caret-right"></i>infinix</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>Huawei</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>tablet</a>
+                <a href=""><i class="fa-solid fa-caret-right"></i>Honor</a>
+            </div>
+
+
+        </div> 
+
+
+
+
+
+
+    </div>
+
+
+    <div class="bottom_footer">
+        <div class="container">
+            <p>&copy; <span>On The Phone</span> All Rights Reserved</p>
+
+            <div class="payment_img">
+                <img src="img/payment_method.png" alt="">
+            </div>
+        </div>
+    </div>
+
+   </footer>
+   <!-- end footer -->
+
+
+
+
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+    <script src="js/swiper.js"></script>
+
+    <script src="js/items_home.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
